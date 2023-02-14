@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap";
+
+body {
+  font-family: Karla, sans-serif;
+  background-color: hsl(204deg, 43%, 93%);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  margin-top: 3rem;
+  box-shadow: -1px 1px 13px 0 rgba(17, 119, 153, 0.43);
+  border-radius: 7px;
+}
+
+div.white-bg {
+  background-color: white;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  padding: 2rem;
+}
+
+div.white-bg h1 {
+  color: hsl(179deg, 62%, 43%);
+}
+
+div.white-bg h3 {
+  color: hsl(71deg, 73%, 54%);
+}
+
+div.white-bg p {
+  color: hsl(218deg, 22%, 67%);
+}
+
+div.cyan-bg {
+  background-color: hsl(179deg, 62%, 43%);
+  color: #e5eff5;
+  padding: 2rem;
+}
+
+div.cyan-bg span {
+  font-size: 1rem;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.584);
+}
+
+div.cyan-bg h1 {
+  margin-bottom: 0.5rem;
+}
+
+div.cyan-bg p {
+  margin-top: 0;
+}
+
+div.cyan-bg button {
+  padding: 1.3rem;
+  width: 100%;
+  color: white;
+  font-size: 1.25rem;
+  background-color: hsl(71deg, 73%, 54%);
+  box-shadow: -1px 1px 13px 0 rgba(17, 119, 153, 0.43);
+  border: none;
+  border-radius: 7px;
+}
+
+div.cyan-light-bg {
+  background-color: rgba(74, 189, 189, 255);
+  color: #e5eff5;
+  padding: 2rem;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
